@@ -1,0 +1,3 @@
+dojo.discipline=bjj
+spring.application.name=training-grounds
+security.basic.enabled=false
