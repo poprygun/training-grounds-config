@@ -1,0 +1,10 @@
+dojo:
+  discipline: judo
+
+spring:
+  application:
+    name: training-grounds
+
+security:
+  basic:
+    enabled: false
