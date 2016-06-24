@@ -1,9 +1,6 @@
 spring:
   application:
     name: training-grounds
-security:
-  basic:
-    enabled: false
 ---
 spring:  
   profiles: jiu-jitsu
