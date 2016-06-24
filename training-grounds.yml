@@ -1,10 +1,16 @@
-dojo:
-  discipline: judo
-
 spring:
   application:
     name: training-grounds
-
 security:
   basic:
     enabled: false
+---
+spring:  
+  profiles: jiu-jitsu
+dojo:
+  discipline: bjj
+---
+spring:  
+  profiles: judo
+dojo:
+  discipline: judo  
