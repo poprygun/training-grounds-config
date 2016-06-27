@@ -1,10 +1,10 @@
 spring:
   application:
-    name: ${vcap.application.name}
+    name: training-grounds
   cloud:
     services:
       registrationMethod: route
-      
+
 ---
 spring:  
   profiles: jiu-jitsu
