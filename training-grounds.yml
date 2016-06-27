@@ -9,7 +9,7 @@ spring:
 spring:  
   profiles: jiu-jitsu
 dojo:
-  discipline: bjj
+  discipline: judo
 ---
 spring:  
   profiles: judo
