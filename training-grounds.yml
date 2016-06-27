@@ -1,6 +1,10 @@
 spring:
   application:
     name: training-grounds
+  cloud:
+    services:
+      registrationMethod: route
+      
 ---
 spring:  
   profiles: jiu-jitsu
