@@ -3,4 +3,9 @@ security:
     enabled: false
 management:
   security:
-    enabled: false  
+    enabled: false
+spring:
+  application:
+  cloud:
+    services:
+      registrationMethod: route    
