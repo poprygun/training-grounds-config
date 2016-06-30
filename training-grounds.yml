@@ -4,6 +4,10 @@ spring:
   cloud:
     services:
       registrationMethod: route
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create      
 
 ---
 spring:  
